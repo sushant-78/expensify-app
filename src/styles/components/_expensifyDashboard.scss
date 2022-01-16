@@ -1,0 +1,15 @@
+.expensify-dashboard__add-expense {
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+    background-color: $accent-color-1;
+}
+
+.expensify-dashboard button:first-child {
+    padding: 12px;
+    font-size: 1.8rem;
+    border: none;
+    background-color: $secondary-color;
+    color: #fff;
+}

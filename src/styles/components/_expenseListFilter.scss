@@ -1,0 +1,31 @@
+.expense-list-filter-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+}
+
+.expense-list-filter-form__input,
+.expense-list-filter-form__select {
+    margin-right: 2rem;
+    padding-left: 4px;
+    border: 1px solid $accent-color-2;
+}
+
+.expense-list-filter-form__input::placeholder {
+    font-size: 18px;
+    color: $primary-color;
+}
+
+.expense-list-filter-form__select {
+    font-size: 18px;
+    color: $primary-color;
+}
+
+@media screen and (max-width: 800px) {
+    .expense-list-filter-form__input,
+    .expense-list-filter-form__select {
+        margin-bottom: 2rem;
+        padding: 12px 10px;
+        border: 1px solid $accent-color-2;
+    }
+}

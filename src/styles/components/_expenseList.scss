@@ -1,0 +1,23 @@
+.expense-list__table {
+    border: 1px solid $accent-color-2;
+    border-collapse: collapse;
+}
+
+.expense-list__header {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    color: $primary-color;
+    background-color: #f6f6f6;
+    border: none;
+}
+
+.expense-list__header th {
+    font-weight: normal;
+}
+
+.expense-list__row {
+    border-bottom: $accent-color-2;
+}

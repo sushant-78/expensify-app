@@ -1,0 +1,35 @@
+.expense-form {
+    margin-top: 2rem;
+}
+
+.expense-form__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.expense-form__container > input,
+textarea {
+    margin-bottom: 2rem;
+    padding: 12px 10px;
+    border: 1px solid $accent-color-2;
+}
+
+.expense-form__container > textarea {
+    height: 8rem;
+}
+
+.expense-form__singleDatePicker {
+    margin-bottom: 2rem;
+    border: 1px solid $accent-color-2;
+}
+
+.expense-form__container > input::placeholder,
+textarea::placeholder {
+    font-size: 18px;
+    color: $primary-color;
+}
+
+.expense-form__error-msg {
+    display: inline-block;
+    margin-bottom: 2rem;
+}

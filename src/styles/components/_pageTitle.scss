@@ -1,0 +1,14 @@
+.page-title {
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    background-color: $accent-color-1;
+}
+
+.page-title p {
+    margin: 0;
+    font-size: 3rem;
+    color: $primary-color;
+}

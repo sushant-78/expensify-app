@@ -1,0 +1,21 @@
+.header {
+    height: 6rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 0;
+    background-color: $primary-color;
+    color: #fff;
+    display: flex;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.website-title {
+    margin-bottom: 0;
+    font-size: 3rem;
+    color: $accent-color-1;
+}
