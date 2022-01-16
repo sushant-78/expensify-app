@@ -5,9 +5,11 @@ const Header = () => {
     return (
         <header className="header">
             <div className="container">
+                <h1>
                 <Link to="/" className="website-title">
-                    <h1>Expensify</h1>
+                    Expensify
                 </Link>
+                </h1>
             </div>
         </header>
     );
