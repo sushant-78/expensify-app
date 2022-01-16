@@ -15,6 +15,8 @@ Install and run  weather app with npm, by going into the application's folder an
 ```
     
 ## Demo
+![expensify-app](https://user-images.githubusercontent.com/30661399/149661899-44bca0ee-26a2-4f04-a3ab-80ca335b157a.gif)
+
 
 https://portfolio-projects-repo-gifs-bucket.s3.ap-south-1.amazonaws.com/portfolio+repo+gifs/expensify-app.gif
 ## License
